@@ -1,19 +1,12 @@
-/*
-     Copyright © 2018 - 2018 Chris Egerton <fearthecellos@gmail.com>
-     This work is free. You can redistribute it and/or modify it under the
-     terms of the Do What The Fuck You Want To Public License, Version 2,
-     as published by Sam Hocevar. See the LICENSE file for more details.
-*/
+package com.realtimefina.redditfetcher;
 
-package com.github.c0urante.kafka.connect.reddit;
-
-import com.github.c0urante.kafka.connect.reddit.stream.CommentsStreamReader;
-import com.github.c0urante.kafka.connect.reddit.stream.PostsStreamReader;
-import com.github.c0urante.kafka.connect.reddit.stream.Reddit;
-import com.github.c0urante.kafka.connect.reddit.model.CommentSourceRecordConverter;
-import com.github.c0urante.kafka.connect.reddit.model.PostSourceRecordConverter;
-import com.github.c0urante.kafka.connect.reddit.stream.StreamReader;
-import com.github.c0urante.kafka.connect.reddit.version.Version;
+import com.realtimefina.redditfetcher.stream.CommentsStreamReader;
+import com.realtimefina.redditfetcher.stream.PostsStreamReader;
+import com.realtimefina.redditfetcher.stream.Reddit;
+import com.realtimefina.redditfetcher.model.CommentSourceRecordConverter;
+import com.realtimefina.redditfetcher.model.PostSourceRecordConverter;
+import com.realtimefina.redditfetcher.stream.StreamReader;
+import com.realtimefina.redditfetcher.version.Version;
 
 import net.dean.jraw.models.Comment;
 import net.dean.jraw.models.Submission;
