@@ -23,13 +23,6 @@
         </repository>
     </repositories>
 
-    <licenses>
-        <license>
-            <name>DWTFPL Version 2</name>
-            <url>http://www.wtfpl.net/txt/copying/</url>
-        </license>
-    </licenses>
-
     <properties>
         <jraw.version>1.1.0</jraw.version>
         <junit.version>4.12</junit.version>
@@ -120,45 +113,10 @@
                                 This connector is currently intended for development and entertainment purposes only and
                                 is not recommended or endorsed for production use cases.
                             ]]></description>
-                            <documentationUrl>${project.scm.url}</documentationUrl>
-                            <sourceUrl>${project.scm.url}</sourceUrl>
-                            <logo>${project.basedir}/logos/reddit.png</logo>
-
-                            <ownerUsername>C0urante</ownerUsername>
-                            <ownerName>Chris Egerton</ownerName>
-                            <ownerType>user</ownerType>
-                            <ownerLogo>${project.basedir}/logos/aku.jpeg</ownerLogo>
-
-                            <supportProviderName>Open Source Community</supportProviderName>
-                            <supportUrl>${project.scm.url}/issues</supportUrl>
-                            <supportSummary>
-                                This is an open-source project supported and maintained on a best-effort by the
-                                community and its creator.
-                            </supportSummary>
-                            <supportLogo>${project.basedir}/logos/github.png</supportLogo>
-
+                            <ownerUsername>florencetsang</ownerUsername>
                             <componentTypes>
                                 <componentType>source</componentType>
                             </componentTypes>
-
-                            <confluentControlCenterIntegration>true</confluentControlCenterIntegration>
-
-                            <licenses>
-                                <license>
-                                    <name>DWTFPL Version 2</name>
-                                    <url>http://www.wtfpl.net/txt/copying/</url>
-                                    <logo>${project.basedir}/logos/wtfpl.png</logo>
-                                </license>
-                            </licenses>
-
-                            <tags>
-                                <tag>reddit</tag>
-                                <tag>stream</tag>
-                                <tag>live</tag>
-                                <tag>jraw</tag>
-                                <tag>social</tag>
-                                <tag>network</tag>
-                            </tags>
                         </configuration>
                     </execution>
                 </executions>
