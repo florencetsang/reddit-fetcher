@@ -1,13 +1,6 @@
-/*
-     Copyright © 2018 - 2018 Chris Egerton <fearthecellos@gmail.com>
-     This work is free. You can redistribute it and/or modify it under the
-     terms of the Do What The Fuck You Want To Public License, Version 2,
-     as published by Sam Hocevar. See the LICENSE file for more details.
-*/
+package com.realtimefina.redditfetcher;
 
-package com.github.c0urante.kafka.connect.reddit;
-
-import com.github.c0urante.kafka.connect.reddit.stream.Reddit;
+import com.realtimefina.redditfetcher.stream.Reddit;
 import net.dean.jraw.pagination.Paginator;
 import org.apache.kafka.common.config.AbstractConfig;
 import org.apache.kafka.common.config.ConfigDef;
@@ -24,9 +17,9 @@ import java.util.Set;
 
 public class RedditSourceConnectorConfig extends AbstractConfig {
 
-    public static final String OAUTH_CLIENT_ID = "_7fRyo80H7qdFA";
-
-
+//    public static final String OAUTH_CLIENT_ID = "_7fRyo80H7qdFA";
+    public static final String OAUTH_CLIENT_ID = "yE1lGpok2avXD8KPa2Omzg";
+//
     public static final String COMMENTS_SUBREDDITS_CONFIG = "comments.subreddits";
     public static final String COMMENTS_SUBREDDITS_DEFAULT = "";
     public static final String COMMENTS_SUBREDDITS_DOC = "A list of subreddits to read comments from";

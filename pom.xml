@@ -3,13 +3,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.c0urante</groupId>
-    <artifactId>kafka-connect-reddit</artifactId>
+    <groupId>com.realtimefina</groupId>
+    <artifactId>reddit-fetcher</artifactId>
     <version>0.2.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Kafka Connect Reddit</name>
-    <description>
-       A Kafka Connect Reddit connector for reading data from Reddit into Kafka.
+    <name>Reddit Fetcher</name>
+    <description>Fetch data from Reddit into Kafka.
     </description>
 
     <repositories>
@@ -30,13 +29,6 @@
             <url>http://www.wtfpl.net/txt/copying/</url>
         </license>
     </licenses>
-
-    <scm>
-        <connection>scm:git:git://github.com/C0urante/kafka-connect-reddit.git</connection>
-        <developerConnection>scm:git:git@github.com:C0urante/kafka-connect-reddit.git</developerConnection>
-        <url>https://github.com/C0urante/kafka-connect-reddit</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <properties>
         <jraw.version>1.1.0</jraw.version>
@@ -215,7 +207,7 @@
                                     <goal>java</goal>
                                 </goals>
                                 <configuration>
-                                    <mainClass>com.github.c0urante.kafka.connect.reddit.RedditSourceConnectorConfig</mainClass>
+                                    <mainClass>com.realtimefina.redditfetcher.RedditSourceConnectorConfig</mainClass>
                                     <arguments>
                                         <argument>${docs.dir}/${docs.config.file}.rst</argument>
                                     </arguments>
