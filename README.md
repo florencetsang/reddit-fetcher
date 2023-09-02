@@ -42,7 +42,7 @@ directory onto the plugin path or classpath for your Kafka Connect worker(s).
 
 ## Configuration
 
-[Docs](docs/source-connector-config.md)
+[Docs](config/source-connector-config.md)
 
 [Example](config/kafka-connect-reddit-source.properties)
 
