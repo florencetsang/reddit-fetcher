@@ -1,0 +1,17 @@
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+C:\Users\Florence\kafka_2.13-3.5.1\bin\windows\zookeeper-server-start.bat C:\Users\Florence\kafka_2.13-3.5.1\config\zookeeper.properties
+
+C:\Users\Florence\kafka_2.13-3.5.1\bin\windows\kafka-server-start.bat C:\Users\Florence\kafka_2.13-3.5.1\config\server.properties
+
+kafka-topics --create --topic reddit-comments --partitions 3 --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic reddit-posts --partitions 3 --replication-factor 1  --bootstrap-server localhost:9092
+
+kafka-console-consumer --bootstrap-server localhost:9092 --topic reddit-posts --from-beginning
+
+kafka-console-consumer --bootstrap-server localhost:9092 --topic reddit-comments --from-beginning
+
+connect-standalone config/connect-standalone.properties config/kafka-connect-reddit-source.properties
