@@ -1,7 +1,9 @@
-# Kafka Connect Reddit
+# Reddit Fetcher
 
 A source connector for reading [Reddit] posts and comments into
-[Apache Kafka], via the [Kafka Connect] framework
+[Apache Kafka], via the [Kafka Connect] framework. 
+
+This repo is inspired by [C0urante]. 
 
 1. [Overview](#overview)
 1. [Installation](#installation)
@@ -9,8 +11,6 @@ A source connector for reading [Reddit] posts and comments into
 1. [Quickstart](#quickstart)
 1. [Offset Tracking](#offset-tracking)
 1. [Data Format](#data-format)
-1. [Issue Tracking](#issue-tracking)
-1. [TODO](#todo)
 
 ## Overview
 
@@ -160,25 +160,9 @@ Example post value (serialized to Json via the [JsonConverter]):
   "num_comments": 0
 }
 ```
-
-## Issue Tracking
-
-Issues are tracked on GitHub. If there's a problem you're running into
-with the connector or a feature missing that you'd like to see, please
-open an issue.
-
-If there's a small bug or typo that you'd like to fix, feel free to open
-a PR without filing an issue first and tag @C0urante for review.
-
-## TODO
-
-- [ ] Support reverse-chronological consumption
-- [ ] Sink connector
-
-PRs welcome and encouraged!
-
 [Kafka Connect]: https://docs.confluent.io/current/connect
 [Apache Kafka]: https://kafka.apache.org
 [Reddit]: https://www.redditinc.com/
 [JRAW]: https://github.com/mattbdean/JRAW
 [JsonConverter]: https://github.com/apache/kafka/blob/2.0.0/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java
+[C0urante]: https://github.com/C0urante/kafka-connect-reddit
