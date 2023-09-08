@@ -5,10 +5,10 @@
      as published by Sam Hocevar. See the LICENSE file for more details.
 */
 
-package com.realtimefina.redditfetcher;
+package com.realtimefin.redditfetcher;
 
-import com.realtimefina.redditfetcher.stream.Reddit;
-import com.realtimefina.redditfetcher.version.Version;
+import com.realtimefin.redditfetcher.stream.Reddit;
+import com.realtimefin.redditfetcher.version.Version;
 import org.apache.kafka.common.config.ConfigDef;
 import org.apache.kafka.connect.connector.Task;
 import org.apache.kafka.connect.source.SourceConnector;

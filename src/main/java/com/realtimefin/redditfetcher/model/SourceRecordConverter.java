@@ -1,4 +1,4 @@
-package com.realtimefina.redditfetcher.model;
+package com.realtimefin.redditfetcher.model;
 
 import org.apache.kafka.connect.source.SourceRecord;
 

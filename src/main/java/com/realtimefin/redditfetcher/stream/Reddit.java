@@ -1,6 +1,6 @@
-package com.realtimefina.redditfetcher.stream;
+package com.realtimefin.redditfetcher.stream;
 
-import com.realtimefina.redditfetcher.version.Version;
+import com.realtimefin.redditfetcher.version.Version;
 import net.dean.jraw.ApiException;
 import net.dean.jraw.RedditClient;
 import net.dean.jraw.http.NetworkAdapter;

@@ -1,4 +1,4 @@
-package com.realtimefina.redditfetcher.model;
+package com.realtimefin.redditfetcher.model;
 
 import net.dean.jraw.JrawUtils;
 import net.dean.jraw.models.Submission;

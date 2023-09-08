@@ -1,12 +1,12 @@
-package com.realtimefina.redditfetcher;
+package com.realtimefin.redditfetcher;
 
-import com.realtimefina.redditfetcher.stream.CommentsStreamReader;
-import com.realtimefina.redditfetcher.stream.PostsStreamReader;
-import com.realtimefina.redditfetcher.stream.Reddit;
-import com.realtimefina.redditfetcher.model.CommentSourceRecordConverter;
-import com.realtimefina.redditfetcher.model.PostSourceRecordConverter;
-import com.realtimefina.redditfetcher.stream.StreamReader;
-import com.realtimefina.redditfetcher.version.Version;
+import com.realtimefin.redditfetcher.stream.CommentsStreamReader;
+import com.realtimefin.redditfetcher.stream.PostsStreamReader;
+import com.realtimefin.redditfetcher.stream.Reddit;
+import com.realtimefin.redditfetcher.model.CommentSourceRecordConverter;
+import com.realtimefin.redditfetcher.model.PostSourceRecordConverter;
+import com.realtimefin.redditfetcher.stream.StreamReader;
+import com.realtimefin.redditfetcher.version.Version;
 
 import net.dean.jraw.models.Comment;
 import net.dean.jraw.models.Submission;

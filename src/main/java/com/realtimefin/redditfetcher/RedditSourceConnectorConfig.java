@@ -1,6 +1,6 @@
-package com.realtimefina.redditfetcher;
+package com.realtimefin.redditfetcher;
 
-import com.realtimefina.redditfetcher.stream.Reddit;
+import com.realtimefin.redditfetcher.stream.Reddit;
 import net.dean.jraw.pagination.Paginator;
 import org.apache.kafka.common.config.AbstractConfig;
 import org.apache.kafka.common.config.ConfigDef;

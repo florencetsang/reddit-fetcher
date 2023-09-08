@@ -1,6 +1,6 @@
-package com.realtimefina.redditfetcher.stream;
+package com.realtimefin.redditfetcher.stream;
 
-import com.realtimefina.redditfetcher.model.PostSourceRecordConverter;
+import com.realtimefin.redditfetcher.model.PostSourceRecordConverter;
 import net.dean.jraw.models.Submission;
 import net.dean.jraw.pagination.Stream;
 import org.apache.kafka.connect.source.SourceRecord;

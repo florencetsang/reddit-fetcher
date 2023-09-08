@@ -1,4 +1,4 @@
-package com.realtimefina.redditfetcher.version;
+package com.realtimefin.redditfetcher.version;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

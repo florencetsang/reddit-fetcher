@@ -1,4 +1,4 @@
-package com.realtimefina.redditfetcher.stream;
+package com.realtimefin.redditfetcher.stream;
 
 import net.dean.jraw.ApiException;
 import net.dean.jraw.models.UniquelyIdentifiable;
